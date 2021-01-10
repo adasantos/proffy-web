@@ -1,8 +1,8 @@
 import React from 'react';
-import Input from '../../components/Input';
 
 import PageHeader from '../../components/PageHeader';
 import TeacherItem from '../../components/TeacherItem';
+import Input from '../../components/Input';
 
 import './styles.css';
 
@@ -15,7 +15,7 @@ function TeacherList() {
 
           <Input name="week-day" label="Dia da semana" />
 
-          <Input name="time" label="Hora" />   
+          <Input type="time" name="time" label="Hora" />   
         </form>
       </PageHeader>
       
